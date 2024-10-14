@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>FastTKD - Achieve balance & strength</title>
         <meta name="robots" content="index" />
       </Head>
       <Hero />

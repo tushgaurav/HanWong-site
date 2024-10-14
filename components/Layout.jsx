@@ -9,10 +9,13 @@ const Layout = ({ children }) => {
         <title>FastTKD</title>
         <meta
           name="description"
-          content="Blinder making it simple for you to build and grow your SaaS applications, or any business idea"
+          content="Achieve balance, strength, and inner peace through the art of taekwondo."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* og image */}
+        <meta property="og:image" content="/og_image.png" />
       </Head>
       <Navbar />
       <main>{children}</main>
