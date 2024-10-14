@@ -50,3 +50,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Simple Design
 - Photo Gallery Support
 - Contact Page
+
+### Thumbnail Generation
+To generate thumbnails for the images in the gallery, run the following command:
+
+```bash
+node ./scripts/image_gen.js
+```
+This will generate thumbnails for all the images in the `public/gallery/images` directory, in the `public/gallery/thumb` directory.
