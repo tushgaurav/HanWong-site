@@ -1,22 +1,15 @@
-import ReactPlayer from "react-player/youtube";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 export default function YoutubeEmbed() {
   return (
     <div className="max-w-6xl mx-auto px-6">
-      <div className="rounded-xl overflow-hidden ">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=LGDaFbc3M50&t=376s"
-          loop={true}
-          playing={true}
-          muted={true}
-          pip={true}
-          width={"100%"}
-          height={"60vh"}
-          config={{
-            youtube: {
-              playerVars: { showinfo: 1 },
-            },
-          }}
+      <div className="rounded-2xl overflow-hidden">
+        <LiteYouTubeEmbed
+          id="LGDaFbc3M50"
+          title="FT Taekwondo"
+          muted
+          poster="hqdefault"
         />
       </div>
     </div>

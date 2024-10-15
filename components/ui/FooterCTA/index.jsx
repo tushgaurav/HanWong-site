@@ -1,15 +1,16 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
-import ReactPlayer from "react-player/youtube";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const FooterCTA = () => (
   <SectionWrapper>
     <div className="custom-screen">
       <div className="max-w-2xl mx-auto text-center">
         <div className="mb-10 rounded-2xl overflow-hidden">
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=EJ64vrUXUWc"
-            width={"100%"}
+          <LiteYouTubeEmbed
+            id="EJ64vrUXUWc"
+            title="Start your Taekwondo journey"
           />
         </div>
         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">

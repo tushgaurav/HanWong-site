@@ -27,7 +27,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto mt-6">
+    <div className="max-w-7xl mx-auto mt-6 px-6">
       <h1 className="text-2xl font-bold text-center text-gray-800 p-4 mb-4">
         Gallery
       </h1>
