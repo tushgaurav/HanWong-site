@@ -21,7 +21,7 @@ export default function GetStarted() {
           <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
             <div className="max-w-lg sm:text-center lg:text-left">
               <h1 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                Talk to a Blinder expert
+                Talk to a taekwondo expert
               </h1>
               <p className="mt-3">
                 We are here to help. Get in touch with sales our press team and

@@ -1,10 +1,17 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
+import ReactPlayer from "react-player/youtube";
 
 const FooterCTA = () => (
   <SectionWrapper>
     <div className="custom-screen">
       <div className="max-w-2xl mx-auto text-center">
+        <div className="mb-10 rounded-2xl overflow-hidden">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=EJ64vrUXUWc"
+            width={"100%"}
+          />
+        </div>
         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           Ready to start your Taekwondo journey?
         </h2>

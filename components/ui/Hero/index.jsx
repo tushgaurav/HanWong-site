@@ -18,15 +18,15 @@ const Hero = () => (
             href="/get-started"
             className="text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 "
           >
-            Start building
+            Contact Us
           </NavLink>
-          <NavLink
+          {/* <NavLink
             href="#cta"
             className="text-gray-700 border hover:bg-gray-50"
             scroll={false}
           >
             Learn more
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </div>

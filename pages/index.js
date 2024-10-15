@@ -7,6 +7,7 @@ import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
 import ToolKit from "../components/ui/ToolKit";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 import Gallery from "../components/ui/Gallery";
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         <meta name="robots" content="index" />
       </Head>
       <Hero />
-      <LogoGrid />
+      {/* <LogoGrid /> */}
+      <YoutubeEmbed />
       <GradientWrapper>
         <Features />
         <CTA />
