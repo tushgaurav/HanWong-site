@@ -14,7 +14,7 @@ const FooterCTA = () => (
           />
         </div>
         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-          Ready to start your Taekwondo journey?
+          How to participate?
         </h2>
         <p className="mt-3 text-gray-600">
           Get in touch with us today! We offer classes for all ages and skill

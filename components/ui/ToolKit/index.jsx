@@ -1,41 +1,37 @@
 import SectionWrapper from "../../SectionWrapper";
-import Image from "next/image";
-import wordpress from "../../../public/icons/wordpress.svg";
-import nextjs from "../../../public/icons/nextjs.svg";
-import tailwind from "../../../public/icons/tailwind.svg";
-import nodejs from "../../../public/icons/nodejs.svg";
-import vercel from "../../../public/icons/vercel.svg";
-import figma from "../../../public/icons/figma.svg";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
+import Image from "next/image";
 const ToolKit = () => {
   const features = [
     {
-      icon: wordpress,
+      videoId: "dhK_nj3Zz1A",
       title: "Beginner Taekwondo",
       desc: "Perfect for those new to martial arts.",
     },
     {
-      icon: nextjs,
+      videoId: "7DUV4t9eHBc",
       title: "Advanced Techniques",
       desc: "For experienced practitioners looking to refine their skills.",
     },
     {
-      icon: tailwind,
+      videoId: "7IoJp-OVVKc",
       title: "Youth Classes",
       desc: "Tailored for children and teenagers.",
     },
     {
-      icon: nodejs,
+      videoId: "IIVAr9dStaY",
       title: "Fitness-Focused Taekwondo",
       desc: "Emphasizing physical conditioning.",
     },
     {
-      icon: vercel,
+      videoId: "IIVAr9dStaY",
       title: "Meditation and Mindfulnes",
       desc: "Integrating spiritual aspects of martial arts.",
     },
     {
-      icon: figma,
+      videoId: "IIVAr9dStaY",
       title: "Figma",
       desc: "Figma is a web-based graphics editing and user interface design app.",
     },
@@ -49,22 +45,27 @@ const ToolKit = () => {
       >
         <div className="max-w-2xl mx-auto space-y-3 sm:text-center">
           <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Our Programs
+            Our Previous Tournaments
           </h2>
           <p>These are a few of our favourite things</p>
         </div>
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((item, idx) => (
-              <li key={idx} className="flex gap-x-4">
-                <div className="flex-none w-12 h-12 gradient-border rounded-full flex items-center justify-center">
-                  <Image src={item.icon} alt={item.title} />
+              <li key={idx} className="">
+                <div className="rounded-2xl overflow-hidden">
+                  <LiteYouTubeEmbed
+                    id={item.videoId}
+                    title="FT Taekwondo"
+                    muted
+                    poster="hqdefault"
+                  />
                 </div>
-                <div>
+                <div className="mt-3">
                   <h4 className="text-lg text-gray-800 font-semibold">
                     {item.title}
                   </h4>
-                  <p className="mt-3">{item.desc}</p>
+                  <p className="mt-1">{item.desc}</p>
                 </div>
               </li>
             ))}

@@ -17,13 +17,17 @@ const CTA = () => {
           </div>
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Stay updated on upcoming local and regional tournaments!
+              How Covid Impacted Taekwondo and How we came out stronger?
             </h2>
             <p className="mt-3 text-gray-600">
-              Blinder, a software development company, helps to digitize
-              businesses by focusing on client’s business challenges, needs. We
-              value close transparent cooperation and encourage our clients to
-              participate actively in the project development life cycle.
+              When COVID hit in early 2020, nearly all physical Taekwondo
+              tournaments came to a halt, leaving our community struggling with
+              employment and other hardships. In response, Grand Master Han Wong
+              took action by launching online Taekwondo tournaments. These
+              events not only provided participants with international exposure
+              at a fraction of the usual cost but also helped raise funds
+              through registration fees, which were directed to support
+              communities in need.
             </p>
             <NavLink
               href="/get-started"

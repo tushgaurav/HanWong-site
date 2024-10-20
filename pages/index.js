@@ -8,7 +8,7 @@ import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
 import ToolKit from "../components/ui/ToolKit";
 import YoutubeEmbed from "../components/YoutubeEmbed";
-import Gallery from "../components/ui/Gallery";
+import Charities from "../components/ui/Charities";
 
 export default function Home() {
   return (
@@ -28,6 +28,7 @@ export default function Home() {
       <GradientWrapper>
         <Testimonials />
       </GradientWrapper>
+      <Charities />
       <FooterCTA />
     </>
   );
