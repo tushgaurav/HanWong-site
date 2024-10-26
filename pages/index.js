@@ -6,6 +6,7 @@ import FooterCTA from "../components/ui/FooterCTA";
 import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
+import IntroTextSection from "../components/ui/IntroTextSection";
 import ToolKit from "../components/ui/ToolKit";
 import YoutubeEmbed from "../components/YoutubeEmbed";
 import Charities from "../components/ui/Charities";
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       {/* <LogoGrid /> */}
       <YoutubeEmbed />
+      <IntroTextSection />
       <GradientWrapper>
         <Features />
         <CTA />
