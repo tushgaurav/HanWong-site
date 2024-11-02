@@ -77,7 +77,9 @@ const Footer = () => (
           <p className="text-gray-600">© {new Date().getFullYear()} FastTKD.</p>
           <p className="text-gray-600 text-sm">
             Website by{" "}
-            <Link href="https://prokits.digital">Prokits Digital.</Link>
+            <Link href="https://prokits.digital?ref=fasttkd" target="blank">
+              Prokits Digital.
+            </Link>
           </p>
         </div>
         <div className="flex items-center gap-x-6 text-gray-400 mt-6">
