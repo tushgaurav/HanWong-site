@@ -9,6 +9,7 @@ import IntroTextSection from "../components/ui/IntroTextSection";
 import ToolKit from "../components/ui/ToolKit";
 import YoutubeEmbed from "../components/YoutubeEmbed";
 import Charities from "../components/ui/Charities";
+import NextTournament from "../components/ui/NextTournament";
 
 export default function Home() {
   return (
@@ -19,10 +20,11 @@ export default function Home() {
       </Head>
       <Hero />
       <YoutubeEmbed />
+      <NextTournament />
       <IntroTextSection />
       <GradientWrapper>
-        <Features />
         <CTA />
+        <Features />
       </GradientWrapper>
       <ToolKit />
       <GradientWrapper>

@@ -9,11 +9,11 @@ const Features = () => {
           src="/icons/confidence.png"
           width={48}
           height={48}
-          alt="Gain Confidence"
+          alt="Cost-Effective"
         />
       ),
-      title: "Gain Confidence",
-      desc: "Experience rapid progress and gain confidence as you master taekwondo skills. Our program emphasizes quick learning and joyful achievement.",
+      title: "Cost-Effective",
+      desc: "Get the same exposure at just 1/50th of the usual cost.",
     },
     {
       icon: (
@@ -21,11 +21,11 @@ const Features = () => {
           src="/icons/community.png"
           width={48}
           height={48}
-          alt="Huge Community"
+          alt="Support a Cause"
         />
       ),
-      title: "Huge Community",
-      desc: "Join our community of successful students who have transformed their lives through taekwondo. From beginners to black belts, every journey inspires.",
+      title: "Support a Cause",
+      desc: "Every kick, every poomsae you perform makes a difference, helping someone in need.",
     },
     {
       icon: (
@@ -36,8 +36,8 @@ const Features = () => {
           alt="Legacy of Champions"
         />
       ),
-      title: "Legacy of Champions",
-      desc: "Our students have competed and won in national and international tournaments. Be part of a legacy of champions and push your limits.",
+      title: "Easy Entry Point",
+      desc: "A perfect stepping stone for anyone starting their international career.",
     },
   ];
 

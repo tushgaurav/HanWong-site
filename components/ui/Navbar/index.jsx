@@ -10,7 +10,6 @@ const Navbar = () => {
 
   const navigation = [
     { title: "Gallery", path: "/gallery" },
-    { title: "Benifits", path: "/#features" },
     { title: "Programs", path: "/#toolkit" },
     { title: "Testimonials", path: "/#testimonials" },
   ];
