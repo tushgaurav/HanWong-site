@@ -5,7 +5,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const FooterCTA = () => (
   <SectionWrapper>
-    <div className="custom-screen">
+    <div className="custom-screen" id="participation">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           How to participate?
