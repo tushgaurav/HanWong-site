@@ -9,8 +9,9 @@ const Navbar = () => {
   const { events } = useRouter();
 
   const navigation = [
+    {title: "Events & Programs", path: "/#events"},
+    {title: "Memberships", path: "/#participation"},
     { title: "Gallery", path: "/gallery" },
-    { title: "Programs", path: "/#toolkit" },
     { title: "Testimonials", path: "/#testimonials" },
   ];
 

@@ -56,7 +56,7 @@ const ToolKit = () => {
   return (
     <SectionWrapper>
       <div
-        id="toolkit"
+        id="tournaments"
         className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8"
       >
         <div className="max-w-2xl mx-auto space-y-3 sm:text-center">

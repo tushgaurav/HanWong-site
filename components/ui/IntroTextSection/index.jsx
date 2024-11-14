@@ -4,14 +4,20 @@ const IntroTextSection = () => {
   return (
     <SectionWrapper>
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-        <div className="max-w-2xl mx-auto space-y-3 sm:text-center">
-          <h1 className="text-gray-800 text-3xl font-semibold sm:text-4xl mb-10">
+        <div className="max-w-3xl mx-auto space-y-3 sm:text-center">
+          <h1 className="text-gray-800 text-4xl font-bold sm:text-5xl mb-12">
             Who is Grand Master Han Wong?
           </h1>
-          <img src="/images/han.png" alt="" className="rounded-xl shadow-sm" />
+          <div className="relative">
+            <img 
+              src="/images/han.png" 
+              alt="Grand Master Han Wong" 
+              className="rounded-2xl shadow-lg w-full object-cover"
+            />
+          </div>
         </div>
-        <div className="space-y-4 max-w-[85ch] mx-auto mt-10">
-          <p>
+        <div className="space-y-6 max-w-[75ch] mx-auto mt-16 text-lg leading-relaxed">
+          <p className="font-medium text-xl text-gray-800">
             Grand Master Han Wong, originally from Malaysia, has been a pivotal
             figure in Taekwondo for over 50 years. As a pioneer of WTF-style
             Taekwondo in Edinburgh, Scotland, he initially came to the UK for
@@ -38,7 +44,7 @@ const IntroTextSection = () => {
             Hanmadang Referee.
           </p>
           <p>
-            Grand Master Han’s influence extends beyond the UK, having
+            Grand Master Han's influence extends beyond the UK, having
             established Jidokwan and Changmookwan schools in India and the
             Philippines. His charitable work over the past four years has
             positively impacted over 1,000 families, supporting flood victims
@@ -46,7 +52,7 @@ const IntroTextSection = () => {
             it possible for underprivileged nations to participate in Taekwondo
             events without financial barriers. His charity efforts include blood
             donations, sanitary pad banks, wheelchair and tricycle donations,
-            support for education, and clothing distribution
+            support for education, and clothing distribution.
           </p>
           <p>
             As a first-generation Taekwondo student, Grand Master Han trained
@@ -56,7 +62,7 @@ const IntroTextSection = () => {
             his dedication to passing on his knowledge and values to future
             generations.
           </p>
-          <p>
+          <p className="text-xl text-gray-800">
             With a lifetime of achievements and a strong commitment to giving
             back, Grand Master Han Wong stands as a true icon and an inspiration
             within the Taekwondo community.
