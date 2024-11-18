@@ -14,12 +14,12 @@ const Hero = () => {
         <div className="w-full max-w-6xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left content */}
-            <div className="space-y-8 text-center lg:text-left">
+            <div className="space-y-8 text-center lg:text-left my-24 lg:my-0">
               <div className="space-y-6">
                 <div className="inline-block">
                   <span className="px-4 py-2 rounded-full bg-orange-100 text-orange-800 flex items-center gap-2 font-medium border border-orange-200">
                     <Medal className="w-4 h-4" />
-                    <span>Global Online Tournaments</span>
+                    <span>Global Charity Tournaments</span>
                   </span>
                 </div>
 
@@ -29,12 +29,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Experience world-class Taekwondo tournaments from anywhere,
-                  while making a
-                  <span className="text-orange-700 font-semibold">
-                    {" "}
-                    global impact
-                  </span>
+                  Join Taekwondo Tournaments Globally, Contributing to a Better World
                 </p>
               </div>
 
@@ -52,13 +47,13 @@ const Hero = () => {
                   scroll={false}
                 >
                   <Medal className="w-5 h-5" />
-                  View Tournaments
+                  View Previous Tournaments
                 </NavLink>
               </div>
             </div>
 
             {/* Right content - Stats */}
-            <div className="relative">
+            <div className="relative mb-40 md:mb-0">
               <div className="grid grid-cols-2 gap-6">
                 {[
                   {
@@ -75,14 +70,14 @@ const Hero = () => {
                   },
                   {
                     icon: Heart,
-                    value: "$50K+",
+                    value: "$10K+",
                     label: "Donated to Charity",
                     gradient: "from-orange-500 to-orange-600",
                   },
                   {
                     icon: Medal,
                     value: "24/7",
-                    label: "Online Access",
+                    label: "Online Assistance",
                     gradient: "from-orange-600 to-orange-700",
                   },
                 ].map(({ icon: Icon, value, label }, idx) => (

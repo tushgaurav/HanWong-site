@@ -9,7 +9,7 @@ const AboutUs = () => {
             About Han Wong International Taekwondo
           </h1>
         </div>
-        <div className="space-y-8 max-w-[85ch] mx-auto mt-10">
+        <div className="space-y-8 max-w-[85ch] mx-auto mt-10 lg:text-center">
           <p className="text-lg leading-relaxed">
             At Han Wong International Taekwondo, our mission is to honor and promote the rich heritage of Taekwondo as a discipline rooted in tradition, respect, and resilience. Guided by the philosophy of "No Politics, Only Traditional Taekwondo Training," we strive to create an environment where students and practitioners can fully immerse themselves in the authentic practice of Taekwondo. Our focus is on cultivating mental strength, physical endurance, and personal growth, ensuring that each member gains a deeper understanding of Taekwondo's true values beyond competition.
           </p>

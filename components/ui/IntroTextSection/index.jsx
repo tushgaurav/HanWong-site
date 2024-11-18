@@ -16,7 +16,7 @@ const IntroTextSection = () => {
             />
           </div>
         </div>
-        <div className="space-y-6 max-w-[75ch] mx-auto mt-16 text-lg leading-relaxed">
+        <div className="space-y-6 max-w-[75ch] mx-auto mt-16 text-lg leading-relaxed lg:text-center">
           <p className="font-medium text-xl text-gray-800">
             Grand Master Han Wong, originally from Malaysia, has been a pivotal
             figure in Taekwondo for over 50 years. As a pioneer of WTF-style

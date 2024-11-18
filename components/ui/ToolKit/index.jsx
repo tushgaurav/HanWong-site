@@ -7,49 +7,31 @@ const ToolKit = () => {
   const features = [
     {
       videoId: "dhK_nj3Zz1A",
-      title: "Beginner Taekwondo",
-      desc: "Perfect for those new to martial arts.",
     },
     {
       videoId: "7DUV4t9eHBc",
-      title: "Advanced Techniques",
-      desc: "For experienced practitioners looking to refine their skills.",
     },
     {
       videoId: "7IoJp-OVVKc",
-      title: "Youth Classes",
-      desc: "Tailored for children and teenagers.",
     },
     {
       videoId: "IIVAr9dStaY",
-      title: "Fitness-Focused Taekwondo",
-      desc: "Emphasizing physical conditioning.",
     },
     {
       videoId: "IIVAr9dStaY",
-      title: "Meditation and Mindfulnes",
-      desc: "Integrating spiritual aspects of martial arts.",
     },
     {
       videoId: "IIVAr9dStaY",
-      title: "Main Event",
-      desc: "Figma is a web-based graphics editing and user interface design app.",
     },
 
     {
       videoId: "e7BHUa63mgE",
-      title: "4th Scotland Taekwondo Open",
-      desc: "Emphasizing physical conditioning.",
     },
     {
       videoId: "o1QJnnGLxIU",
-      title: "Han Wong World Wide International - Speed Kicking",
-      desc: "Integrating spiritual aspects of martial arts.",
     },
     {
       videoId: "IIVAr9dStaY",
-      title: "Figma",
-      desc: "Figma is a web-based graphics editing and user interface design app.",
     },
   ];
 
@@ -76,12 +58,6 @@ const ToolKit = () => {
                     muted
                     poster="hqdefault"
                   />
-                </div>
-                <div className="mt-3">
-                  <h4 className="text-lg text-gray-800 font-semibold">
-                    {item.title}
-                  </h4>
-                  <p className="mt-1">{item.desc}</p>
                 </div>
               </li>
             ))}
