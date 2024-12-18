@@ -33,17 +33,17 @@ const CTA = () => {
             </p>
             <div className="flex gap-x-4 mt-8">
               <NavLink
-                href="/tournaments"
+                href="https://forms.gle/ZCcZiYHpGUa5KqeWA"
                 className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
               >
-                Join Tournament
+                Contact Us
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 href="/learn-more"
                 className="px-6 py-3 text-orange-600 bg-white border border-orange-600 rounded-lg shadow-md hover:bg-orange-50 font-medium transition"
               >
                 Learn More
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
         </div>

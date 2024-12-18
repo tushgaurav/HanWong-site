@@ -9,8 +9,7 @@ const Navbar = () => {
   const { events } = useRouter();
 
   const navigation = [
-    {title: "Events & Programs", path: "/#events"},
-    {title: "Memberships", path: "/#participation"},
+    {title: "Previous Tournaments", path: "/#tournaments"},
     { title: "Gallery", path: "/gallery" },
     { title: "Testimonials", path: "/#testimonials" },
   ];
@@ -96,10 +95,10 @@ const Navbar = () => {
               })}
               <li>
                 <NavLink
-                  href="/get-started"
+                  href="https://forms.gle/ZCcZiYHpGUa5KqeWA"
                   className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                 >
-                  Let's work
+                  Get In Touch
                 </NavLink>
               </li>
             </ul>

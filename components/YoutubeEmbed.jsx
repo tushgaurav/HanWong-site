@@ -6,7 +6,7 @@ export default function YoutubeEmbed() {
     <div className="max-w-6xl mx-auto px-6">
       <div className="rounded-2xl overflow-hidden">
         <LiteYouTubeEmbed
-          id="LGDaFbc3M50"
+          id="pVF_hYLnspE"
           title="FT Taekwondo"
           muted
           poster="hqdefault"

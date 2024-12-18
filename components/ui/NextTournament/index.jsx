@@ -10,12 +10,15 @@ const NextTournament = () => {
           </h1>
 
           <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl font-semibold">June 2025</p>
-            <p className="text-lg">1st - 3rd</p>
+            <p className="text-2xl font-semibold">2nd Edinburgh Open Online Poomsae & Speed Kicking Championship 2024</p>
           </div>
-          <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl font-semibold">Location</p>
-            <p className="text-lg">New Delhi, India & Online</p>
+         
+          <div className=" max-w-2xl mx-auto">
+            <img 
+              src="/images/poster.png" 
+              alt="2nd Edinburgh Open Online Poomsae And Speed Kicking Championship 2024 Poster"
+              className="w-full rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </div>

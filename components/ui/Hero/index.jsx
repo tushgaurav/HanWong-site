@@ -35,7 +35,7 @@ const Hero = () => {
 
               <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <NavLink
-                  href="mailto:join@hanwong.in"
+                  href="https://forms.gle/ZCcZiYHpGUa5KqeWA"
                   className="w-full sm:w-auto px-8 py-4 rounded-full text-white bg-orange-600 hover:bg-orange-500 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-orange-200"
                 >
                   <Globe className="w-5 h-5" />

@@ -45,7 +45,7 @@ const ToolKit = () => {
           <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             Our Previous Tournaments
           </h2>
-          <p>These are a few of our favourite things</p>
+          <p>Some of our flagship events</p>
         </div>
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">

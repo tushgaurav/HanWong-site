@@ -38,7 +38,7 @@ const GradationEvents = () => (
           </div>
           <div className="text-center">
             <a
-              href="/register"
+              href="https://forms.gle/ZCcZiYHpGUa5KqeWA"
               className="inline-block bg-gray-900 text-white px-6 py-2 rounded hover:bg-gray-800 transition-colors"
             >
               Register Now
