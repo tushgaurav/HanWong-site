@@ -1,13 +1,13 @@
 const GradationEvents = () => (
   <section className="bg-white py-16" id="events">
     <div className="max-w-4xl mx-auto px-4">
-      <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+      <h2 className="text-3xl font-bold text-orange-600 text-center mb-12">
         Gradation Events
       </h2>
 
       <div className="space-y-12">
         <div>
-          <h3 className="text-xl font-semibold text-orange-600 mb-4">
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">
             Belt Progression
           </h3>
           <p className="text-gray-600 leading-relaxed">
