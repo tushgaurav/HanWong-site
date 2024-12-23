@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>FastTKD - Achieve balance & strength</title>
+        <title>Han Wong International</title>
         <meta name="robots" content="index" />
       </Head>
       <Hero />
