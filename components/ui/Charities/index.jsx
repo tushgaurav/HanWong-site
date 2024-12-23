@@ -1,7 +1,7 @@
 const Charities = () => {
   return (
     <section className="max-w-6xl mx-auto px-6 mb-20" id="charities">
-      <h2 className="text-3xl font-semibold text-gray-800 text-center mb-8">
+      <h2 className="text-3xl font-semibold text-orange-600 text-center mb-8">
         Our Charities So Far
       </h2>
 
