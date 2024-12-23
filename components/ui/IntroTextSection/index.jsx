@@ -3,7 +3,7 @@ import SectionWrapper from "../../SectionWrapper";
 const IntroTextSection = () => {
   return (
     <SectionWrapper>
-      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+      <div className="max-w-screen-xl mx-auto px-4 text-orange-600 md:px-8">
         <div className="max-w-3xl mx-auto space-y-3 sm:text-center">
           <h1 className="text-gray-800 text-4xl font-bold sm:text-5xl mb-12">
             Who is Grand Master Han Wong?
