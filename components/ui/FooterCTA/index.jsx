@@ -7,13 +7,11 @@ const FooterCTA = () => (
   <SectionWrapper>
     <div className="custom-screen" id="participation">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+        <h2 className="text-orange-600 text-3xl font-semibold sm:text-4xl">
           How to participate?
         </h2>
         <p className="mt-3 text-gray-600">
-          Get in touch with us today! We offer classes for all ages and skill
-          levels. Whether you're a beginner or a seasoned practitioner, we have
-          a class for you.
+        Participating in our flagship events is simple—we make sure everything runs smoothly for you from start to finish.
         </p>
         <div className="my-10 mb-5 rounded-2xl overflow-hidden">
           <LiteYouTubeEmbed
