@@ -18,7 +18,7 @@ const KeyPillars = () => (
         {/* Tradition */}
         <div className="group p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 bg-gray-50 hover:bg-white">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Tradition</h3>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 leading-relaxed text center">
             At the heart of Han Wong International Taekwondo lies a commitment
             to tradition. We honor the time-tested techniques and philosophies
             established by Taekwondo's founders, preserving the discipline as a
