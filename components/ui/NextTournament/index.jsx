@@ -5,7 +5,7 @@ const NextTournament = () => {
     <SectionWrapper>
       <div className="max-w-screen-xl mt-10 mx-auto px-4 text-gray-600 md:px-8">
         <div className="max-w-2xl mx-auto space-y-3 sm:text-center">
-          <h1 className="text-gray-800 text-3xl font-semibold text-center sm:text-4xl mb-10">
+          <h1 className="text-orange-600 text-3xl font-semibold text-center sm:text-4xl mb-10">
             Next Tournament
           </h1>
 
