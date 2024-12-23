@@ -1,7 +1,7 @@
 const CovidImpact = () => (
   <section className="bg-gray-100 py-16">
     <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
-      <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl">
+      <h2 className="text-3xl font-bold text-orange-600 sm:text-4xl">
         How COVID-19 Impacted Taekwondo and How We Came Out Stronger
       </h2>
 
