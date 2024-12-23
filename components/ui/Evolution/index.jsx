@@ -1,7 +1,7 @@
 const Evolution = () => (
   <section className="bg-white py-16">
     <div className="max-w-6xl mx-auto px-6 lg:px-8">
-      <h2 className="text-3xl font-bold text-gray-800 text-center sm:text-4xl">
+      <h2 className="text-3xl font-bold text-orange-600 text-center sm:text-4xl">
         Taekwondo’s Evolution Over the Years
       </h2>
 
