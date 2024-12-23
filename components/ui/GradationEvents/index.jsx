@@ -7,7 +7,7 @@ const GradationEvents = () => (
 
       <div className="space-y-12">
         <div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">
+          <h3 className="text-xl font-semibold text-orange-600 mb-4">
             Belt Progression
           </h3>
           <p className="text-gray-600 leading-relaxed">
