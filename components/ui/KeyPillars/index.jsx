@@ -4,7 +4,7 @@ const KeyPillars = () => (
   <SectionWrapper className="bg-white py-20">
     <div className="max-w-7xl mx-auto px-6">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">
+        <h2 className="text-4xl font-bold text-orange-600 mb-6">
           Key Pillars of Han Wong International
         </h2>
         <p className="max-w-2xl mx-auto text-lg text-gray-600">
