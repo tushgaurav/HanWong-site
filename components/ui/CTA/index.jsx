@@ -19,7 +19,7 @@ const CTA = () => {
           </div>
           {/* Content Section */}
           <div className="lg:w-1/2 flex flex-col">
-            <h2 className="text-4xl text-gray-800 font-extrabold mb-6 leading-tight">
+            <h2 className="text-4xl text-orange-600 font-extrabold mb-6 leading-tight">
               How COVID-19 Impacted Taekwondo and How We Came Out Stronger
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6">

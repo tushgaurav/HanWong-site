@@ -15,8 +15,8 @@ const FooterCTA = () => (
         </p>
         <div className="my-10 mb-5 rounded-2xl overflow-hidden">
           <LiteYouTubeEmbed
-            id="EJ64vrUXUWc"
-            title="Start your Taekwondo journey"
+            id="VWy4DUJXaf8"
+            title="How to participate in Han Wong International"
           />
         </div>
         <NavLink

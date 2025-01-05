@@ -3,46 +3,46 @@ import SectionWrapper from "../../SectionWrapper";
 const Testimonials = () => {
   const testimonials = [
     {
-      avatar: "/images/testimonials/arjun.webp",
-      name: "Arjun Patel",
-      title: "16, I gained confidence through training.",
+      avatar: "/images/testimonials/priya.webp",
+      name: "Teresa Semmunegus",
+      title: "USA, Inspired by charitable mission",
       quote:
-        "FastTKD has been a game-changer for me! I used to be so shy, but now I feel super confident. The instructors are lit, and the training is tough but fun. It's not just about kicks and punches, it's about becoming a better version of yourself. 10/10 would recommend!",
+        "It was a great experience and what a noble cause. In today's lifestyle where egocentrism and selfishness are the rule, the work of charity is priceless. As Mother Teresa said 'Charity is above love.' I agree by more than 100%.",
     },
     {
-      avatar: "/images/testimonials/priya.webp",
-      name: "Priya Sharma",
-      title: "22, Joined for weight loss but found a community!",
+      avatar: "/images/testimonials/arjun.webp", 
+      name: "Jim Harp",
+      title: "USA, International Poomsae competitor",
       quote:
-        "I joined FastTKD to lose weight, but I gained so much more. The community here is like a second family. The workouts are intense, but everyone supports each other. Plus, learning self-defense makes me feel safer. It's been an amazing journey!",
+        "I encourage anyone wanting to develop their Poomsae competition skills to enter the online tournaments sponsored by GM Han Wong. These are excellent opportunities to measure yourselves against international competition and contribute to charitable causes.",
     },
     {
       avatar: "/images/testimonials/rahul.webp",
-      name: "Rahul Mehta",
-      title: "28, Stress relief and focus.",
+      name: "Russ Wood",
+      title: "Australia, Experienced practitioner",
       quote:
-        "As a working professional, FastTKD helps me de-stress after long office hours. The meditation sessions are a boon for mental peace. I've noticed improvement in my focus at work too. It's not just a workout, it's a lifestyle change.",
+        "These competitions are incredible events as the funds raised provide food for those less fortunate. Not only will competitors gain international experience without traveling overseas, but more importantly, they contribute to helping people who are less fortunate than ourselves.",
     },
     {
       avatar: "/images/testimonials/anjali.webp",
-      name: "Anjali Desai",
-      title: "19, Initially hesitant but found encouragement.",
+      name: "Frederick Dytianquin",
+      title: "Dedicated participant",
       quote:
-        "I was worried about joining as a complete beginner, but the instructors at FastTKD are so patient and encouraging. They break down complex moves and make learning fun. I've made great friends here and look forward to every class. Best decision ever!",
+        "Thank you for your hard work and dedication in organizing this event. It was a wonderful experience, and we truly hope for more tournaments like this in the future where we can showcase our taekwondo skills while also contributing to helping others.",
     },
     {
       avatar: "/images/testimonials/vikram.webp",
-      name: "Vikram Singh",
-      title: "14, Personal growth",
+      name: "James Alistair Kolatowicz",
+      title: "International competitor",
       quote:
-        "My parents enrolled me in FastTKD to channel my energy, and now I'm hooked! The classes are challenging but exciting. I've learned discipline, respect, and how to set goals. My grades have improved too. FastTKD rocks!",
+        "It's amazing to see people from different parts of the world coming together and giving it their best. The effort put into editing all the videos is truly commendable—it really brought the event to life!",
     },
     {
-      avatar: "/images/testimonials/meera.webp",
-      name: "Meera Reddy",
-      title: "35, Family participation and bonding",
+      avatar: "/images/testimonials/daryl.jpg",
+      name: "Daryl Chua",
+      title: "Advocate for competitive growth",
       quote:
-        "FastTKD has been a blessing for our family. We joined together for fitness, but it's become our special bonding time. The instructors create a positive environment where we motivate each other. It's not just exercise, it's an investment in our health and happiness",
+        "Without competitions, students miss out on valuable opportunities to gain practical experience and showcase their skills. These events are essential for their growth and development.",
     },
   ];
 
