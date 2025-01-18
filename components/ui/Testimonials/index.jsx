@@ -5,42 +5,42 @@ const Testimonials = () => {
     {
       avatar: "/images/testimonials/default.jpg",
       name: "Teresa Semmunegus",
-      title: "USA, Inspired by charitable mission",
+      title: "USA",
       quote:
         "It was a great experience and what a noble cause. In today's lifestyle where egocentrism and selfishness are the rule, the work of charity is priceless. As Mother Teresa said 'Charity is above love.' I agree by more than 100%.",
     },
     {
       avatar: "/images/testimonials/jim.jpg", 
       name: "Jim Harp",
-      title: "USA, International Poomsae competitor",
+      title: "USA",
       quote:
         "I encourage anyone wanting to develop their Poomsae competition skills to enter the online tournaments sponsored by GM Han Wong. These are excellent opportunities to measure yourselves against international competition and contribute to charitable causes.",
     },
     {
       avatar: "/images/testimonials/russ.jpg",
       name: "Russ Wood",
-      title: "Australia, Experienced practitioner",
+      title: "Australia",
       quote:
         "These competitions are incredible events as the funds raised provide food for those less fortunate. Not only will competitors gain international experience without traveling overseas, but more importantly, they contribute to helping people who are less fortunate than ourselves.",
     },
     {
       avatar: "/images/testimonials/default.jpg",
       name: "Frederick Dytianquin",
-      title: "Dedicated participant",
+      title: "Philippines",
       quote:
         "Thank you for your hard work and dedication in organizing this event. It was a wonderful experience, and we truly hope for more tournaments like this in the future where we can showcase our taekwondo skills while also contributing to helping others.",
     },
     {
       avatar: "/images/testimonials/default.jpg",
       name: "James Alistair Kolatowicz",
-      title: "International competitor",
+      title: "Australia",
       quote:
         "It's amazing to see people from different parts of the world coming together and giving it their best. The effort put into editing all the videos is truly commendable—it really brought the event to life!",
     },
     {
       avatar: "/images/testimonials/default.jpg",
       name: "Daryl Chua",
-      title: "Advocate for competitive growth",
+      title: "Singapore",
       quote:
         "Without competitions, students miss out on valuable opportunities to gain practical experience and showcase their skills. These events are essential for their growth and development.",
     },
