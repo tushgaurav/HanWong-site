@@ -5,14 +5,14 @@ const Testimonials = () => {
     {
       avatar: "/images/testimonials/default.jpg",
       name: "Teresa Semmunegus",
-      title: "USA",
+      title: "United States of America",
       quote:
         "It was a great experience and what a noble cause. In today's lifestyle where egocentrism and selfishness are the rule, the work of charity is priceless. As Mother Teresa said 'Charity is above love.' I agree by more than 100%.",
     },
     {
       avatar: "/images/testimonials/jim.jpg", 
       name: "Jim Harp",
-      title: "USA",
+      title: "United States of America",
       quote:
         "I encourage anyone wanting to develop their Poomsae competition skills to enter the online tournaments sponsored by GM Han Wong. These are excellent opportunities to measure yourselves against international competition and contribute to charitable causes.",
     },
