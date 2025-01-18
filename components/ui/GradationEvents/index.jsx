@@ -33,8 +33,8 @@ const GradationEvents = () => (
             Next Gradation Sessions
           </h3>
           <div className="flex justify-center gap-8 mb-8 text-gray-600">
-            <p>Offline: December 15, 2023</p>
-            <p>Online: January 10, 2024</p>
+            <p>Offline: TBA (To Be Announced)</p>
+            <p>Online: TBA (To Be Announced)</p>
           </div>
           <div className="text-center">
             <a
