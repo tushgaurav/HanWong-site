@@ -1,4 +1,6 @@
 import SectionWrapper from "../../SectionWrapper";
+import NavLink from "../NavLink";
+
 
 const NextTournament = () => {
   return (
@@ -20,6 +22,12 @@ const NextTournament = () => {
               className="w-full rounded-lg shadow-lg"
             />
           </div>
+          <NavLink
+                href="https://forms.gle/6p5LWqQieaVj3ijSA"
+                className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
+              >
+                Contact Us
+              </NavLink>
         </div>
       </div>
     </SectionWrapper>
