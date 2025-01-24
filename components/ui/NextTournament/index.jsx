@@ -27,6 +27,7 @@ const NextTournament = () => {
           <div className="mt-20 inline-flex justify-center">
             <NavLink
               href="https://forms.gle/6p5LWqQieaVj3ijSA"
+              target="_blank"
               className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
             >
               Registration Link!
