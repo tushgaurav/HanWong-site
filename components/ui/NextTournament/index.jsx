@@ -29,7 +29,7 @@ const NextTournament = () => {
               href="https://forms.gle/6p5LWqQieaVj3ijSA"
               className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
             >
-              Contact Us
+              Registration Link!
             </NavLink>
           </div>
         </div>
