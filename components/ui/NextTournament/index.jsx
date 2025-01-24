@@ -10,7 +10,7 @@ const NextTournament = () => {
           </h1>
 
           <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl font-semibold">2nd Edinburgh Open Online Poomsae & Speed Kicking Championship 2024</p>
+            <p className="text-2xl font-semibold">5th Scotland Open Online Poomsae And Speed Kicking Championship 2025</p>
           </div>
          
           <div className=" max-w-2xl mx-auto">
