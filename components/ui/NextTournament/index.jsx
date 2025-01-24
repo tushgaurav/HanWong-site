@@ -15,7 +15,7 @@ const NextTournament = () => {
          
           <div className=" max-w-2xl mx-auto">
             <img 
-              src="/images/poster.png" 
+              src="/images/poster.jpg" 
               alt="2nd Edinburgh Open Online Poomsae And Speed Kicking Championship 2024 Poster"
               className="w-full rounded-lg shadow-lg"
             />
