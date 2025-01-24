@@ -1,7 +1,6 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
 
-
 const NextTournament = () => {
   return (
     <SectionWrapper>
@@ -12,22 +11,27 @@ const NextTournament = () => {
           </h1>
 
           <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl font-semibold">5th Scotland Open Online Poomsae And Speed Kicking Championship 2025</p>
+            <p className="text-2xl font-semibold">
+              5th Scotland Open Online Poomsae And Speed Kicking Championship
+              2025
+            </p>
           </div>
-         
-          <div className=" max-w-2xl mx-auto mb-8">
-            <img 
-              src="/images/poster.jpg" 
+
+          <div className=" max-w-2xl mx-auto">
+            <img
+              src="/images/poster.jpg"
               alt="2nd Edinburgh Open Online Poomsae And Speed Kicking Championship 2024 Poster"
               className="w-full rounded-lg shadow-lg"
             />
           </div>
-          <NavLink
-                href="https://forms.gle/6p5LWqQieaVj3ijSA"
-                className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
-              >
-                Contact Us
-              </NavLink>
+          <div className="mt-20 inline-flex justify-center">
+            <NavLink
+              href="https://forms.gle/6p5LWqQieaVj3ijSA"
+              className="px-6 py-3 text-white bg-orange-600 rounded-lg shadow-md hover:bg-orange-700 font-medium transition"
+            >
+              Contact Us
+            </NavLink>
+          </div>
         </div>
       </div>
     </SectionWrapper>
