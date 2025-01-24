@@ -15,7 +15,7 @@ const NextTournament = () => {
             <p className="text-2xl font-semibold">5th Scotland Open Online Poomsae And Speed Kicking Championship 2025</p>
           </div>
          
-          <div className=" max-w-2xl mx-auto">
+          <div className=" max-w-2xl mx-auto mb-8">
             <img 
               src="/images/poster.jpg" 
               alt="2nd Edinburgh Open Online Poomsae And Speed Kicking Championship 2024 Poster"
