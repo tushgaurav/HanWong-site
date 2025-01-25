@@ -33,11 +33,11 @@ const NextTournament = () => {
              Registration Link!
            </NavLink>
            <NavLink
-             href="#" // Replace with your desired link
+             href="https://drive.google.com/drive/folders/1dfISfn9zusoFYkAlWPztFr7FC8hWuRXD?usp=sharing" 
              target="_blank"
              className="px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 font-medium transition"
            >
-             Additional Information
+             Download brochure and Poster
            </NavLink>
          </div>
        </div>
