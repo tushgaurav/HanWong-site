@@ -12,6 +12,7 @@ const Navbar = () => {
     {title: "Previous Tournaments", path: "/#tournaments"},
     { title: "Gallery", path: "/gallery" },
     { title: "Testimonials", path: "/#testimonials" },
+    {title: "Press Release", path: "/press-release"},
   ];
 
   useEffect(() => {
