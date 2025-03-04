@@ -14,6 +14,7 @@ import KeyPillars from "../components/ui/KeyPillars";
 import Evolution from "../components/ui/Evolution";
 import Events from "../components/ui/Events";
 import GradationEvents from "../components/ui/GradationEvents";
+import PressRelease from "../components/ui/PressRelease";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <meta name="robots" content="index" />
       </Head>
       <Hero />
+      <PressRelease />
       <YoutubeEmbed />
       <NextTournament />
       <AboutUs />
